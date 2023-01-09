@@ -14,10 +14,15 @@ import { PurchaseHistoryListingPageComponent } from './components/purchase-histo
     ProductListingPageComponent,
     ProductRegisteringPageComponent,
     StockRegisteringPageComponent,
-    PurchaseHistoryListingPageComponent
+    PurchaseHistoryListingPageComponent,
   ],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
+  exports: [
+    SignInPageComponent,
+    ProductListingPageComponent,
+    ProductRegisteringPageComponent,
+    StockRegisteringPageComponent,
+    PurchaseHistoryListingPageComponent,
+  ],
 })
-export class PagesModule { }
+export class PagesModule {}

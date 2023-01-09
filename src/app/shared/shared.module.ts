@@ -7,13 +7,8 @@ import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
-  declarations: [
-    SidenavComponent,
-    HeaderComponent,
-    FooterComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  declarations: [SidenavComponent, HeaderComponent, FooterComponent],
+  imports: [CommonModule],
+  exports: [SidenavComponent, HeaderComponent, FooterComponent],
 })
-export class SharedModule { }
+export class SharedModule {}

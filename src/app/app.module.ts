@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { NgxTranslateModule } from './ngx-translate/ngx-translate.module';
 import { CoreModule } from './core/core.module';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -18,6 +19,7 @@ import { CoreModule } from './core/core.module';
     MaterialModule,
     NgxTranslateModule,
     CoreModule,
+    SharedModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
